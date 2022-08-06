@@ -97,6 +97,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-cors-headers"
+version = "3.6.0"
+description = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+Django = ">=2.2"
+
+[[package]]
 name = "graphene"
 version = "2.1.9"
 description = "GraphQL Framework for Python"
@@ -368,7 +379,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "a46be6041627e003373bc39d8b05f9b53a7294fc5b1689b41586857869bbe309"
+content-hash = "c6e5356b5878e48b428de32bbd264bdb151b94fb8c3708b7ea1be85ebede01ff"
 
 [metadata.files]
 aniso8601 = []
@@ -382,6 +393,7 @@ black = []
 click = []
 colorama = []
 django = []
+django-cors-headers = []
 graphene = []
 graphene-django = []
 graphql-core = []
